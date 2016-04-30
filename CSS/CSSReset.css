@@ -1,0 +1,37 @@
+@charset"UTF-8";
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+form,
+fieldset,
+legend,
+img{margin:0;padding:0}
+fieldset,img{border:0}
+img{display:block}
+address,
+caption,
+th,
+var{font-style:normal;font-weight:normal}
+
+ul,
+ol{list-style:none}
+input{padding-top:0;padding-bottom:0;font-family:"SimSun","宋体"}
+select,input{vertical-align:middle}
+select,input,textarea{font-size:12px;margin:0}
+textarea{outline-style:none;-webkit-appearance:none}
+textarea{resize:none}
+a{
+	text-decoration:none;
+}
+input{
+	border:0;
+}
