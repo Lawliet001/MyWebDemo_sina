@@ -113,3 +113,37 @@ a{
 	font:12px;
 	font-weight:bold;
 }
+.content{
+	width: 1000px;
+	height: 265px;
+	margin:0 auto;
+	margin-top:45px;
+}
+.content_l{
+		height: 218px;
+		width: 240px;
+		border-top:3px solid #ff8400;
+		margin-right:25px;
+}
+ .content_l_center{
+ 	width: 240px;
+ 	height: 117px;
+ 	background-color: red;
+ }
+ .content_l_center ul li{
+ 		float:left;
+		font-size:14px;
+ }
+ .content_l_center ul li s{
+ 		display:inline-block;
+ 		width: 3px;
+ 		height: 3px;
+		background: url(../image/CSS_Sprite.png) 0px -16px;
+		
+}
+.content_c{
+
+}
+.content_r{
+
+}
