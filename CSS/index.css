@@ -6,11 +6,13 @@ html{
 	background-color: #FCFCFC;
 	height: 44px;
 	border-bottom:1px solid #EDEEF0;
+	border-top:3px solid #ff8400;
 }
 .top_page{
 	width: 1000px;
 	height: 44px;
 	margin:0 auto;
+
 }
 .top_page_l{
 		line-height:44px;
@@ -19,6 +21,9 @@ html{
 	float:left;
 	padding-right:30px;
 	line-height:44px;	
+}
+.top_page_l ul li a:hover{
+	color:#ff8400;
 }
 .top_page_l ul  li s {
 		display:inline-block;
@@ -34,6 +39,9 @@ html{
 		float:left;
 		padding-right:30px;
 		line-height:44px;	
+}
+.top_page_r ul li a:hover{
+	color:#ff8400;
 }
 .top_page_r ul  li s {
 		
@@ -98,6 +106,9 @@ a{
 		padding-left: 18px ;
 		
 }
+.nav_bar1 ul li a:hover{
+	color:#ff8400;
+}
 
 .nav_bar2{
 		width: 143px;
@@ -109,13 +120,16 @@ a{
 		line-height:23px;
 		padding-left: 18px ;
 }
+.nav_bar2 ul li a:hover{
+	 color:#ff8400;
+}
 .summary{
 	font:12px;
 	font-weight:bold;
 }
 .content{
 	width: 1000px;
-	height: 240px;
+	height: 400px;
 	margin:0 auto;
 
 }
@@ -125,10 +139,11 @@ a{
 	margin:0 auto;
 }
 .content_l{
-		height: 218px;
 		width: 240px;
+		height: 218px;
 		border:1px solid #d9e0ee;
 		border-top:3px solid #ff8400;
+		margin-right:20px;
 
 }
 .content_l_top{
@@ -271,7 +286,87 @@ a{
 		background: url(../image/CSS_Sprite.png)0px -74px no-repeat;
 }
 .content_c{
+		width: 360px;
+		height: 277px;
+		margin-right:20px;
 
+}
+.cont_c_head{
+		width: 358px;
+		height: 34px;
+		background-color: #f7f7f7;
+		border:1px solid  #e3e6ed;
+		line-height:34px;
+
+}
+.menu{
+	display:block;
+	width: 174px;
+	height: 35px;
+	float:left;
+}
+.cont_c_body{
+		width: 360px;
+		height: 231px;
+		padding-top:10px;
+
+}
+.body_center{
+		height: 203px;
+}
+.picture{
+		height: 92px;
+		margin-top:15px;
+}
+.picture span{
+	display:block;
+	background-color: black;
+	color:#fff;
+	height: 20px;
+	line-height:20px;
+	text-align:center;
+}
+.pic1{
+		display:block;
+		overflow:hidden;
+		width: 105px;
+		height: 90px;
+		border:1px solid #fff;
+}
+.pic2{
+		display:block;
+		overflow:hidden;
+		width: 105px;
+		height: 90px;
+		border:1px solid #fff;
+		margin-left:19px;
+}
+.pic3{
+		display:block;
+		overflow:hidden;
+		width: 105px;
+		height: 90px;
+		border:1px solid #fff;
+		margin-left:19px;
+}
+.pape{
+	  	width: 360px;
+	  	height: 104px;
+	  	padding-top:7px;
+}
+.pape li a {
+		font-size:14px;
+		line-height: 26px;
+}
+.body_center ul li{
+		display:block;
+		width: 350px;
+		height: 26px;
+		padding-left:10px;
+		
+		line-height: 26px;
+		text-align:center;
+		background: url(../image/CSS_Sprite.png) -73px -98px no-repeat;
 }
 .content_r{
 

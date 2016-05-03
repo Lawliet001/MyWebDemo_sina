@@ -4,3 +4,14 @@
 .fr{
 	float:right;
 }
+a.orange:hover{
+	color:#ff8400;
+}
+.menu-set{
+		width: 32px;
+		height: 33px;
+		padding:0px 12px;
+		border-top:3px solid #ff8400;
+		border-right:1px solid  #e3e6ed;
+		font:16px "Microsoft Yahei";
+}
