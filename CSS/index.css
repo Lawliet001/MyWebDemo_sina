@@ -369,5 +369,70 @@ a{
 		background: url(../image/CSS_Sprite.png) -73px -98px no-repeat;
 }
 .content_r{
+			display:block;
+			width: 358px;
+			height: 277px;
+			
+}
+.content_r_head{	
+			width: 358px;
+			height: 34px;
+			line-height:34px;
+			border:1px solid  #e3e6ed;
+			background-color: #f7f7f7;
+}
+.head_menu{
+			width: 132px;
+			height: 35px;
+			margin-left:2px;
 
+}
+.head_menu1{
+			width: 32px;
+			height: 35px;
+			padding:0px 13px;
+			margin-top:-1px;
+			border-top:3px solid #ff8400;
+			border-right:1px solid #e3e6ed;
+}
+.head_menu a{
+			display:block;
+			line-height:32px;
+			font-size:16px;
+}
+.head_menu2{
+			width: 48px;
+			height: 33px;
+			padding:0px  12px;
+			border-top:3px solid #ff8400;
+			margin-top:-1px;
+			border-right:1px solid #e3e6ed;
+
+}
+.head_date{
+			display:block;
+			width: 48px;
+			height: 34px;
+			margin-right:10px;
+			line-height:34px;
+			text-align:center;
+}
+.content_r_body{	
+			height: 257px;
+
+}
+.content_r_body  ul  li {
+			display:block;
+			width: 350px;
+			height: 26px;
+			line-height:26px;
+			padding-left:10px;
+			background: url(../image/CSS_Sprite.png) -39px -154px  no-repeat;
+
+}
+.content_r_body  ul  li a {
+			line-height:26px;
+			font-size:14px;
+			float:left;
+			padding-right:2px;
 }
